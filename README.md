@@ -26,7 +26,7 @@ A
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [Github Repository](https://github.com/Jesus-Puertos/QR-code-component)
 - Live Site URL: [live site URL here](https://your-live-site-url.com)
 
 ## My process
