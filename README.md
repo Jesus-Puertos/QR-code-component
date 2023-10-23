@@ -27,7 +27,7 @@ A
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/Jesus-Puertos/QR-code-component)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://qrcomponent-jesus-puertos-frontend-me.netlify.app/)
 
 ## My process
 
