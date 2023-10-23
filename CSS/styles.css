@@ -1,0 +1,84 @@
+/*ROOT*/
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+  --weight-400: 400;
+  --weight-700: 700;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--Lightgray);
+  font-size: 1.6rem;
+}
+/*Globales*/
+
+h1 {
+  font-size: 2.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+}
+.card {
+  width: 33rem;
+  height: auto;
+  text-align: center;
+  background-color: var(--White);
+  border-radius: 5%;
+  padding: 1.5rem;
+}
+
+.card__img img {
+  max-width: 100%;
+
+  border-radius: 5%;
+}
+
+.card__title {
+  color: var(--Darkblue);
+  font-size: 2.25rem;
+  font-weight: var(--weight-700);
+  text-align: center;
+  padding: 1rem;
+}
+
+.card__description {
+  font-size: 1.8rem;
+  color: var(--Grayishblue);
+  font-weight: var(--weight-400);
+  padding: 0 1rem;
+}
+
+/**ATTRIBUTION**/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
